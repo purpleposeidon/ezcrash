@@ -1,0 +1,22 @@
+[package]
+name = "ezcrash"
+version = "0.1.0"
+authors = ["neptunepink <purpleposeidon@gmail.com>"]
+license = "MIT/Apache-2.0"
+edition = "2021"
+
+description = "Zero-fuss debug tracing macro"
+repository = "https://github.com/purpleposeidon/ezcrash"
+
+keywords = ["debug", "trace", "dev"]
+categories = ["development-tools::debugging"]
+
+# readme = "README.md"
+
+[badges]
+maintenance = { status = "passively-maintained" }
+
+[lib]
+path = "ezcrash.rs"
+
+[dependencies]
